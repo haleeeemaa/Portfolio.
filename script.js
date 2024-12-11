@@ -1,4 +1,4 @@
-const greeting = document.createElement('h3');
+const greeting = document.createElement('h1');
 const now = new Date();
 const hours = now.getHours;
 
