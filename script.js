@@ -1,6 +1,6 @@
-const greeting = document.createElement('h1');
+const greeting = document.createElement('h3');
 const now = new Date();
-const hours = now.getHours;
+const hours = now.getHours();
 
 if (hours<12){
     greeting.textContent="Good Morning!";
