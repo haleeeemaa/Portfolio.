@@ -1,29 +1,29 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: rgb(245, 239, 239);
-    color: pink;
+    background-color: #f4f4f4;
+    color: #333;
 }
 header {
     background: #333;
-    color: pink;
-    padding: 5 rem 3;
+    color: #fff;
+    padding: 1 rem 0;
     text-align: center;
-    font-size: xxx-large;
 }
 nav ul {
-    list-style: square;
-    padding: 20px;
+    list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
+    backgroud: #333
 }
 nav ul li {
     margin: 0 1rem;
 }
 nav ul li {
-    color: pink;
+    color: #fff;
     text-decoration: none;
 }
 section {
