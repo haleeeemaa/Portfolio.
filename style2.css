@@ -1,0 +1,30 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 179, 211);
+    color: rgb(84, 12, 22);
+}
+header {
+    background: #333;
+    color: pink;
+    padding: 5 rem 3;
+    text-align: center;
+}
+nav ul {
+    list-style: square;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+nav ul li {
+    color: pink;
+    text-decoration: none;
+}
+section {
+    padding: 1.5rem;
+}
