@@ -29,3 +29,6 @@ nav ul li {
 section {
     padding: 1.5rem;
 }
+section h2 {
+    text-align: center;
+}
