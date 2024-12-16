@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {const now = new Date();
+            const hours = now.getHours;
+            
+            let greetingtext;
+            
+            if (hours<12){
+            greeting.textContent="Good Morning!";
+            } else if (hours<18){
+            greeting.textContent="Good Afternoon!";
+            }else {
+            greeting.textContent="Good Evening!";
+            }
+            
+            greeting.textContent = greetingText;})
+                const greeting = document.createElement('h1');
+            greeting.style.textAlign = "center";
+            document.body.appendChild(greeting);
+            </script>
+         
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#pictures">Pictures</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My Name is Halima Abdulkadir Aliyu. I am 20 years old studying Software Engineering at Bayero University Kano.</p>
+        <p>My Hobbies are:</p>
+        <ul>
+            <li>Reading</li>
+            <li>Travelling</li>
+            <li>Drawing and Painting</li>
+            <li>Watching Movies/Series</li>
+            <li>Playing video games</li>
+        </ul>
+
+    </section>
+    <section id="Pictures">
+        <h2>Pictures</h2>
+        <table>
+            <tr>
+                <td><img src="halima.jpg" width="150" height="200" alt=""></td>
+                <td><img src="halima1.jpg" width="150" height="200" alt=""></td>
+                <td><img src="halima3.jpg" width="150" height="200" alt=""></td>
+                <td><img src="halima2.jpg" width="150" height="200" alt=""></td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Phone No: 07066928524</li>
+            <li>Snapchat: haleemah.aam</li>
+            <li>Email: halimaaliyu04@gmail.com</li>
+        </ul>
+    </section>
+   
+
+</body>
+</html>
